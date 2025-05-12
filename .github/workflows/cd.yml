@@ -3,7 +3,7 @@ name: CD Pipeline
 on:
   push:
     branches:
-      - prod
+      - production
 
 jobs:
   deploy:
@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy Application
       run: |
-        kubectl create deployment mlops-project --image=${{ secrets.DOCKER_USERNAME }}/mlops-project:latest
+        kubectl create deployment mlops-project --image=${{ secrets.DOCKER_USERNAME }}/i211226-i210666-mlops-project:latest
         kubectl expose deployment mlops-project --type=LoadBalancer --port=5000
 
     - name: Get Minikube IP
