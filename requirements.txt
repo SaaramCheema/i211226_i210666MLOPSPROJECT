@@ -72,7 +72,7 @@ email_validator==2.2.0
 entrypoints==0.4
 filelock==3.16.1
 Flask==2.2.5
-Flask-AppBuilder==4.5.2
+Flask-AppBuilder==4.3.6
 Flask-Babel==2.0.0
 Flask-Bcrypt==1.0.1
 Flask-Caching==2.3.0
