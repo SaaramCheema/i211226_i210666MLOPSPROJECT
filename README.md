@@ -72,7 +72,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SMuhammadMustafa/mlops-project.git
+   git clone project.git
    cd mlops-project
    ```
 
