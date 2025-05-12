@@ -8,7 +8,7 @@ annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
 anyio==4.6.2.post1
 apache-airflow==2.7.2
-apache-airflow-providers-common-compat==1.2.2
+apache-airflow-providers-common-compat==1.1.0
 apache-airflow-providers-common-io==1.4.2
 apache-airflow-providers-common-sql==1.20.0
 apache-airflow-providers-fab==1.5.1
